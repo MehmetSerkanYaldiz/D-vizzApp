@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#a5b1c2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:outlineSpotShadowColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Değer Giriniz"
+        android:inputType="numberDecimal"
+        android:textColor="#00ff00">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:textColor="#00ff00"
+        android:gravity="center"
+        android:layout_height="35dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="ÇEVİR"
+        android:textSize="30dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
